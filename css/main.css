@@ -59,7 +59,9 @@ body {
         transform: scale(1.2), rotate (5deg);
         z-index: 10;
         box-shadow: 0 0 200px 30px rgb(0, 0, 0, 0.4);
-        
+        }
+        .author {
+            border-color: #111111;
         }
 }
 
@@ -75,4 +77,19 @@ body {
     display: block;
     opacity: 0.95;
     transition: opacity 0.4s linear, transform 0.4s ease-out, box_shadow 0.3s ease-out;
+}
+
+.link-wrapper {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.author {
+    color: #ffdf91;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
 }
